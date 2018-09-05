@@ -1,0 +1,4 @@
+ErrorDocument 404 /notfound.html
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%REQUEST_URI

@@ -1,0 +1,102 @@
+.chatcontent{
+	margin-top:1%;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	height:94%;
+	overflow-y:scroll;
+	padding-bottom:25px;
+}
+.chatbox{
+	float:left;
+	width:75%;
+	background-color: #DEE0E3;
+}
+.chatboxme{
+	float:right;
+	width:75%;
+	background-color: #D94249;
+	color:white;
+}
+.chatboxme, .chatbox{
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius:7.5px;
+}
+.time{
+	width:75%;
+	background-color: white;
+	color:grey;
+}
+.chatcontent #r{
+	text-align: right;
+}
+.main{
+	padding-bottom:0px;
+	overflow:none;
+}
+.chatinput{
+width: 90%;
+margin-left: 5%;
+margin-right:5%;
+bottom:0;
+position: absolute;
+}
+.chatmain input[type=text]{
+	width: 75%;
+	padding-left:5%;	
+	padding-right:5%;
+	padding-top: 2%;
+	padding-bottom:2%;
+	font-size:100%;
+	float:left;
+	border-top-left-radius: 25px; 
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius:25px;
+	border: 2px solid red;
+	margin-bottom: 5px;
+}
+.chatmain button img{
+	width:100%;
+	margin-right:0px;
+	margin-left: 0px;
+}
+.chatmain button{
+	padding-top:1%;
+	border-radius:100px;
+	height: 9%;
+	width:10%;
+	color: black;
+    height: auto;
+    margin-top: 0%;
+    border: 1px solid red;
+    background-color: #ffffff;
+    font-family: proximab;
+    font-weight:none;
+    font-size: auto;
+    box-shadow:none;
+	}
+.chatmain ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+  text-indent:0px;
+}
+}
+.chatmain ::-moz-placeholder { /* Firefox 19+ */
+  color: grey;
+  text-indent:0px;
+}
+.chatmain :-ms-input-placeholder { /* IE 10+ */
+  color: grey;
+  text-indent:0px;
+}
+}
+.chatmain :-moz-placeholder { /* Firefox 18- */
+  color: grey;
+  text-indent:0px;
+}
+.chatmain form{
+	 -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
